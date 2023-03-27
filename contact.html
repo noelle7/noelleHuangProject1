@@ -55,7 +55,26 @@
                     </div>
                     <div class="formColumn">
                         <form action="">
-                            <input type="text">
+                            <fieldset >
+                                <label for="name" class="sr-only">Full name</label>
+                                <input type="text" placeholder="Your Full Name*" id="name" required>
+                        
+                                <label for="Email" class="sr-only">Email</label>
+                                <input type="email" placeholder="Your Email Address*" id="Email" required>
+                        
+                                <label for="phone" class="sr-only">Phone number</label>
+                                <input type="number" placeholder="Phone Number" name="phone" id="phone">
+                        
+                                <label for="website" class="sr-only">Website link</label>
+                                <input type="text" name="website" id="website" placeholder="Your Website Link">
+
+                                <label for="subject" class="sr-only">Subject</label>
+                                <input type="text" placeholder="Subject..." id="subject">
+
+                                <label for="message" class="sr-only">Message</label>
+                                <input type="text" placeholder="Your Message..." id="message">
+                              </fieldset>
+                              <button type="submit" >Send Message</button>
                         </form>
                     </div>
                 </div>
@@ -106,8 +125,9 @@
                 <p>5919 Trussville Crossings Pkwy, <br>Birmingham AL 35235</p>
                 <p><span>Phone:</span></p>
                 <p>+8801688005654</p>
-                <form action="text">
-                    <input type="text">
+                <form action="">
+                    <label for="email" class="sr-only">Email</label>
+                    <input type="email" placeholder="Enter Email..." id="email">
                 </form>
             </div>
         </div>
