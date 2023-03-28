@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <script src="https://kit.fontawesome.com/60d37f1f0e.js" crossorigin="anonymous"></script>
     <title>Contact</title>
 </head>
 <body>
+    <!-- HEADER section -->
     <header>
         <div class="wrapper">
             <nav>
@@ -72,7 +74,10 @@
                                 <input type="text" placeholder="Subject..." id="subject">
 
                                 <label for="message" class="sr-only">Message</label>
-                                <input type="text" placeholder="Your Message..." id="message">
+                                <!-- <input type="text" placeholder="Your Message..." id="message"> -->
+                                <textarea name="userMessage" id="message" cols="35" rows="10" minlength="5" maxlength="200">
+                                    Your Message...
+                                </textarea>
                               </fieldset>
                               <button type="submit" >Send Message</button>
                         </form>
