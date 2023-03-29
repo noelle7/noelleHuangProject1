@@ -415,8 +415,15 @@ img {
 .about-motto-container {
   margin-left: 10px;
 }
-.about-motto-container p {
-  border: 0.5cm solid rgb(95, 179, 95);
+.about-motto-container .shape {
+  height: 150px;
+  width: 350px;
   border-radius: 40px;
+  background-color: #5fb35f;
+}
+.about-motto-container p {
   padding: 50px 70px 50px 30px;
+  color: #fff;
+  font-family: "Lora", Arial, serif;
+  line-height: 1.5;
 }
