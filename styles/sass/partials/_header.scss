@@ -1,33 +1,6 @@
 @use "./variables" as var;
 
-// nav {
-//     background: var.$primaryColor;
-//     width: 100%;
-//     display: flex;
-
-//     ul {
-//         display: flex;
-//         flex-direction: row;
-//         justify-content: space-between;
-//     }
-//     li {
-//         // border-right: 1px solid var.$secondaryColor;
-//         list-style: none;
-
-//         a {
-//             // padding: 10px;
-//             // display: block;
-//             text-decoration: none;
-//             color: var.$fontColor;
-           
-//             &:hover {
-//                 background: var.$secondaryColor;
-//                 color: var.$primaryColor;
-
-//             }
-//         }
-//     }    
-// }
+// NAVIGATION
 
 .header-top {
     display: flex;
@@ -61,6 +34,8 @@
     }
 }
 
+// MAIN HEADER
+
 .header-main {
     background: url(./../assets/assets/header/background.png);
     height: 100vh;
@@ -75,7 +50,8 @@
     margin: 0 50px;
 
 
-    .header-text-container, .header-image-container {
+    .header-text-container, 
+    .header-image-container {
         width: 50%;
         padding: 0 20px;
         margin-top: 3%;
