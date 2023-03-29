@@ -5,43 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/60d37f1f0e.js" crossorigin="anonymous"></script>
     <title>Contact</title>
 </head>
 <body>
     <!-- HEADER section -->
     <header>
-        <div class="wrapper">
-            <nav>
-                <img src="./assets/assets/logo.png" alt="OREG logo">
-                <ul>
-                    <li>
-                        <a href="./index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="./index.html#news">Blog</a>
-                    </li>
-                    <li>
-                        <a href="./contact.html">Contact</a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                        </a>
-                    </li>
-                </ul>
-            </nav>  
-            <div class="contactHeaderContainer">
-                <h1>Contact Us</h1> 
+        <section class="header-top" id="header-top">
+            <div class="wrapper">
+                <div class="header-logo" id="header-logo">
+                    <img src="./assets/assets/logo.png" alt="OREG logo">                    
+
+
+                <div class="header-nav" id="header-nav">
+                    <nav>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./index.html#news">Blog</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                            <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                        </ul>
+                    </nav>
+                </div>                
             </div>
-        </div>   
+        </section>
+        
+        <section class="header-main" id="header-main">
+            <div class="wrapper">
+                <div class="contact-header-container" id="contact-header-container">
+                    <h1>Contact Us</h1> 
+                </div>                
+            </div>
+        </section>   
     </header>
+
     <main>
         <!-- FORM section -->
-        <section id="form" class="form">
+        <section  class="form" id="form">
             <div class="wrapper">
-                <div class="formRow">
-                    <div class="formColumn">
+                <div class="form-row">
+                    <div class="form-column">
                         <div class="info">
                             <h3>Office Address</h3>
                             <p>3812 Lena Lane City Jacson Mississippi</p>
@@ -55,7 +64,7 @@
                             <p>no-email@oreg.com</p>
                         </div>
                     </div>
-                    <div class="formColumn">
+                    <div class="form-column">
                         <form action="">
                             <fieldset >
                                 <label for="name" class="sr-only">Full name</label>
@@ -75,7 +84,7 @@
 
                                 <label for="message" class="sr-only">Message</label>
                                 <!-- <input type="text" placeholder="Your Message..." id="message"> -->
-                                <textarea name="userMessage" id="message" cols="35" rows="10" minlength="5" maxlength="200">
+                                <textarea name="user-message" id="message" cols="35" rows="10" minlength="5" maxlength="200">
                                     Your Message...
                                 </textarea>
                               </fieldset>
@@ -88,8 +97,8 @@
     </main>
     <!-- FOOTER section -->
     <footer>
-        <div class="footerRow">
-            <div class="footerColumn">
+        <div class="footer-row">
+            <div class="footer-column">
                 <img src="./assets/assets/logo.png" alt="OREG logo">
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus sed unde neque perferendis sint magnam quas.</p>
                 <a href="#" class="fa fa-facebook"></a>
@@ -97,7 +106,7 @@
                 <a href="#" class="fa fa-youtube"></a>
                 <a href="#" class="fa fa-twitter"></a>
             </div>
-            <div class="footerColumn">
+            <div class="footer-column">
                 <h3>Quick Links</h3>
                 <p><a href="#">About Us</a></p>
                 <p><a href="#">Our Product</a></p>
@@ -106,25 +115,25 @@
                 <p><a href="#">Become a member</a></p>
                 <p><a href="#">Cases Studies</a></p>
             </div>
-            <div class="footerColumn">
+            <div class="footer-column">
                 <h3>Recent Products</h3>
-                <div class="footerProduct">
+                <div class="footer-product">
                     <img src="./assets/assets/product7.jpeg" alt="one lettuce">
                     <h4>Fresh Vegetable</h4>
-                    <span class="priceBefore">$13</span>
+                    <span class="price-before">$13</span>
                 </div>
-                <div class="footerProduct">
+                <div class="footer-product">
                     <img src="./assets/assets/product6.jpeg" alt="green olive on a tree branch">
                     <h4>Fresh Fruit</h4>
-                    <span class="priceBefore">$13</span>
+                    <span class="price-before">$13</span>
                 </div>
-                <div class="footerProduct">
+                <div class="footer-product">
                     <img src="./assets/assets/product5.jpeg" alt="some green peas with pods">
                     <h4>Fresh Bean</h4>
-                    <span class="priceBefore">$13</span>
+                    <span class="price-before">$13</span>
                 </div>
             </div>
-            <div class="footerColumn">
+            <div class="footer-column">
                 <h3>Subscribe</h3>
                 <p><span>Address:</span></p>
                 <p>5919 Trussville Crossings Pkwy, <br>Birmingham AL 35235</p>
