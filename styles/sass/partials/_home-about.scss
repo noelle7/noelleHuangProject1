@@ -4,6 +4,7 @@
 
 .about {
     display: flex;
+    margin-top: 30px;
 
     .wrapper {
         display: flex;
@@ -17,6 +18,8 @@
         }
     }   
 }
+
+// TEXT CONTAINER
 
 .about-text-container {
 
@@ -57,9 +60,13 @@
     }
 }
 
+// MOTTO container
+
 .about-motto-container {
+    display: flex;
+    justify-content: center;
     margin-left: 10px;
-    // margin-top: 50px;
+    margin-top: 20px;
 
     .shape {
         height: 150px;
@@ -69,7 +76,7 @@
     }
 
     p { 
-        padding: 50px 70px 50px 30px;
+        padding: 2rem 70px 2rem 30px;
         color: var.$white;
         font-family: var.$FontStack;
         line-height: 1.5;
