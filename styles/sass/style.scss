@@ -1,8 +1,12 @@
 @use "./partials/setup";
 @use "./partials/variables";
+
 @use "./partials/header";
+
 @use "./partials/home-about";
 @use "./partials/home-product";
 @use "./partials/home-gallery";
 @use "./partials/home-news";
+
+@use "./partials/footer";
 

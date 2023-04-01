@@ -358,6 +358,35 @@ img {
   margin-right: 30px;
 }
 
+.contact-header {
+  background: url(./../assets/assets/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 36vh;
+}
+.contact-header .overlay {
+  background: rgba(57, 57, 57, 0.502);
+  height: 100%;
+}
+.contact-header .wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact-header h1 {
+  color: #fff;
+  font-family: "Lora", Arial, serif;
+  font-weight: 400;
+  text-align: center;
+}
+
 .about {
   display: -webkit-box;
   display: -ms-flexbox;

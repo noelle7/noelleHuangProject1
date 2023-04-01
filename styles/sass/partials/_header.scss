@@ -34,6 +34,8 @@
     }
 }
 
+// ************ HOME PAGE ****************
+
 // MAIN HEADER
 
 .header-main {
@@ -59,6 +61,7 @@
     }
 }
 
+// HEADER TEXT
 .header-text-container {
     justify-content: center;
     display: flex;
@@ -98,4 +101,34 @@
 
 .header-image-container {
     margin-right: 30px;
+}
+
+// ************ CONTACT PAGE ****************
+
+// MAIN HEADER
+
+.contact-header {
+    background: url(./../assets/assets/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 36vh;
+
+    .overlay {
+        background: rgba(57, 57, 57, 0.502);
+        height: 100%;
+    }
+
+    .wrapper {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h1 {
+        color: var.$white;
+        font-family: var.$FontStack;
+        font-weight: 400;
+        text-align: center;
+    }
 }
