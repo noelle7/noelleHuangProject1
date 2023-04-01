@@ -84,7 +84,7 @@
     }
 }
 
-.products-button {
+.load-button {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -97,7 +97,7 @@
         border-radius: 20cm;
         padding: 5px 0;        
     
-        .uppercase-button {
+        a {
             color: var.$white;
             text-decoration: none;
             text-transform: uppercase;

@@ -496,7 +496,7 @@ img {
   margin: 10px 0;
 }
 
-.products-button {
+.load-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -506,20 +506,28 @@ img {
   width: 100%;
   margin-top: 50px;
 }
-.products-button button {
+.load-button button {
   margin: 20px;
   background: #207200;
   border: none;
   border-radius: 20cm;
   padding: 5px 0;
 }
-.products-button button .uppercase-button {
+.load-button button a {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
   padding: 0 15px;
   margin: 10px 0;
+}
+
+.gallery {
+  background-image: url(./../assets/assets/grass.jpg);
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
 }
 
 .gallery-text-container {
@@ -536,7 +544,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 .gallery-text-container h2 {
   font-family: "Lora", Arial, serif;
@@ -570,4 +578,27 @@ img {
   text-decoration: none;
   padding: 0 15px;
   margin: 10px 0;
+}
+
+.image-gallery-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 5px;
+}
+.image-gallery-container li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 25%;
+          flex: 1 1 25%;
+}
+.image-gallery-container li img {
+  width: 100%;
+  height: 100%;
+}
+.image-gallery-container .larger-image {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  height: auto;
 }
