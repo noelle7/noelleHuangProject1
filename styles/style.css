@@ -431,6 +431,7 @@ img {
 .products-head-container {
   text-align: center;
   padding: 0 100px;
+  margin-top: 80px;
 }
 .products-head-container h2 {
   font-family: "Lora", Arial, serif;
@@ -535,7 +536,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 .gallery-text-container h2 {
   font-family: "Lora", Arial, serif;
@@ -556,4 +557,17 @@ img {
 }
 .gallery-text-container ul li {
   margin: 20px;
+}
+
+.gallery-buttons button {
+  background: #207200;
+  border: none;
+  border-radius: 20cm;
+  padding: 5px 0;
+}
+.gallery-buttons button a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 15px;
+  margin: 10px 0;
 }

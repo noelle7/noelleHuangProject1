@@ -1,13 +1,13 @@
 @use "./variables" as var;
 
-// GALLERY TITLE SECTION
+// GALLERY TITLE
 
 .gallery-text-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 80px;
 
     h2 {
         font-family: var.$FontStack;
@@ -28,3 +28,20 @@
         }    
     }
 }
+
+// GALLERY BUTTON 
+
+.gallery-buttons button {
+    background: var.$green;
+    border: none;
+    border-radius: 20cm;
+    padding: 5px 0;
+    
+    a {
+        color: var.$white;
+        text-decoration: none;
+        padding: 0 15px;
+        margin: 10px 0;
+    }
+}
+
