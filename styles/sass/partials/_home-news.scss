@@ -1,0 +1,72 @@
+@use "./variables" as var;
+
+// NEWS BACKGROUND + TITLE
+
+// *section-head-container position styling in _product.scss
+
+.news {
+    background: var.$green;
+    padding-bottom: 50px;
+
+    .section-head-container {
+        color: var.$white;
+        margin-top: 0;
+        padding-top: 50px;
+        
+        h2 {
+            margin-top: 0;
+            // padding-top: 5rem;
+        }
+
+        p {
+            padding: 0;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+// NEWS CONTAINER: PLACEMENT
+
+.news-container {
+    display: flex;
+
+    .blog {
+        background-color: var.$white;
+        padding: 15px;
+        margin: 0 10px;
+        border-radius: .1cm;
+    }
+
+    img {
+        border-radius: .1cm;  
+    }
+}
+
+// NEWS CONTAINER: INFO
+
+.blog {
+    h3 {
+        font-family: var.$FontStack;
+    }
+}
+
+// NEWS CONTAINER: BUTTON
+
+.blog button {
+    background: var.$green;
+    border: none;
+    border-radius: 20cm;
+    padding: 13px 5px;
+    margin: 10px 0;
+    
+    a {
+        color: var.$white;
+        text-decoration: none;
+        padding: 0 15px;
+        margin: 10px 0;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+}
+
