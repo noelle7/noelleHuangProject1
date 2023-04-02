@@ -97,56 +97,82 @@
         </section>
     </main>
     <!-- FOOTER section -->
-    <footer>
-        <div class="footer-row">
-            <div class="footer-column">
-                <img src="./assets/assets/logo.png" alt="OREG logo">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus sed unde neque perferendis sint magnam quas.</p>
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-youtube"></a>
-                <a href="#" class="fa fa-twitter"></a>
-            </div>
-            <div class="footer-column">
-                <h3>Quick Links</h3>
-                <p><a href="#">About Us</a></p>
-                <p><a href="#">Our Product</a></p>
-                <p><a href="#">Our Blog</a></p>
-                <p><a href="#">Contact Us</a></p>
-                <p><a href="#">Become a member</a></p>
-                <p><a href="#">Cases Studies</a></p>
-            </div>
-            <div class="footer-column">
-                <h3>Recent Products</h3>
-                <div class="footer-product">
-                    <img src="./assets/assets/product7.jpeg" alt="one lettuce">
-                    <h4>Fresh Vegetable</h4>
-                    <span class="price-before">$13</span>
+    <footer class="footer" id="footer">
+        <div class="wrapper">
+            <div class="footer-row">
+                <div class="footer-column brand">
+                    <img src="./assets/assets/logo.png" alt="OREG logo">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus sed unde neque perferendis sint magnam quas.</p>
+                    <ul class="social-media">
+                        <li>
+                            <a href="#" class="fa fa-facebook"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="fa fa-instagram"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="fa fa-youtube"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="fa fa-twitter"></a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="footer-product">
-                    <img src="./assets/assets/product6.jpeg" alt="green olive on a tree branch">
-                    <h4>Fresh Fruit</h4>
-                    <span class="price-before">$13</span>
+                
+                <div class="footer-column links">
+                    <h2>Quick Links</h2>
+                    <p><a href="./index.html#about">About Us</a></p>
+                    <p><a href="./index.html#products">Our Product</a></p>
+                    <p><a href="./index.html#news">Our Blog</a></p>
+                    <p><a href="./contact.html">Contact Us</a></p>
+                    <p><a href="./contact.html#form">Become a member</a></p>
+                    <p><a href="#">Cases Studies</a></p>
                 </div>
-                <div class="footer-product">
-                    <img src="./assets/assets/product5.jpeg" alt="some green peas with pods">
-                    <h4>Fresh Bean</h4>
-                    <span class="price-before">$13</span>
+                
+                <div class="footer-column footer-products">
+                    <h2>Recent Products</h2>
+                    <div class="footer-product-card">
+                        <img src="./assets/assets/product7.jpeg" alt="one lettuce">
+                        <div class="footer-product-info">
+                            <h4>Fresh Vegetable</h4>
+                            <span class="price-before">$13</span>
+                        </div>
+                    </div>
+
+                    <div class="footer-product-card">
+                        <img src="./assets/assets/product6.jpeg" alt="green olive on a tree branch">
+                        <div class="footer-product-info">
+                            <h4>Fresh Fruit</h4>
+                            <span class="price-before">$13</span>
+                        </div>
+                    </div>
+
+                    <div class="footer-product-card">
+                        <img src="./assets/assets/product5.jpeg" alt="some green peas with pods">
+                        <div class="footer-product-info">
+                            <h4>Fresh Bean</h4>
+                            <span class="price-before">$13</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="footer-column">
-                <h3>Subscribe</h3>
-                <p><span>Address:</span></p>
-                <p>5919 Trussville Crossings Pkwy, <br>Birmingham AL 35235</p>
-                <p><span>Phone:</span></p>
-                <p>+8801688005654</p>
-                <form action="">
-                    <label for="email" class="sr-only">Email</label>
-                    <input type="email" placeholder="Enter Email..." id="email">
-                </form>
+
+                <div class="footer-column info">
+                    <h2>Subscribe</h2>
+                    <p class="info-type">Address:</p>
+                    <p>5919 Trussville Crossings Pkwy, <br>Birmingham AL 35235</p>
+                    <p class="info-type">Phone:</p>
+                    <p>+8801688005654</p>
+                    <form action="">
+                        <label for="email" class="sr-only">Email</label>
+                        <input type="email" placeholder="Enter Email..." id="email">
+                    </form>
+                </div>
             </div>
         </div>
-        <p>Copyright &copy; 2023. All Rights Reserved</p>
-    </footer>   
+
+        <div class="footer-copyright">
+            <p>Copyright &copy; 2023. All Rights Reserved</p>
+        </div>
+    </footer>
 </body>
 </html>

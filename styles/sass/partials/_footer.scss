@@ -1,4 +1,134 @@
 @use "./variables" as var;
 
-// FOOTER BACKGROUND
+// FOOTER PLACEMENT
 
+.footer .wrapper {
+    display: flex;
+    margin-top: 20px;
+
+    .footer-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+    }
+
+    .footer-column {
+        flex: 1 1 25%;
+        padding: 1.5%;
+    } 
+}
+
+// FOOTER FONT FAMILY
+
+footer h2, 
+footer h4 {
+    font-family: var.$FontStack;
+    font-weight: 600;
+} 
+
+// FOOTER COLUMN - BRAND
+
+.brand p {
+    line-height: 2;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+
+    .fa {
+        padding: 10px;
+        font-size: 20px;
+        width: 42px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+        background: var.$green;
+        color: var.$white;
+    }
+}
+
+// FOOTER COLUMN - LINKS
+
+.links {
+
+    h3 {
+        margin-bottom: 30px;
+    }
+    
+    p {
+        padding: 2px 0;
+        
+        a {
+            text-decoration: none;
+            color: var.$black;
+        }
+    }
+}
+
+// FOOTER COLUMN - PRODUCT LIST
+
+.footer-product-card {
+    display: flex;
+    flex-direction: row;
+
+    .footer-product-info {
+        display: flex;
+        flex-direction: column;
+
+        h4 {
+            margin: 10px 0;
+        }
+
+        .price-before {
+            color: var.$green;
+            font-weight: 600;
+        }
+    }
+}
+
+.footer-product-card img {
+    width: 7vw;
+    margin: 5px;
+}
+
+// FOOTER COLUMN - INFO
+
+.info-type {
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.info {
+
+    form {
+        // margin-top: 30px;
+
+        input {
+            padding: 5px 15px;
+        }
+    }
+}
+
+// BACKGROUND
+
+.footer {
+    background: url(./../assets/assets/cow.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    padding-bottom: 1px;
+}
+
+// COPYRIGHT
+
+.footer-copyright {
+    text-align: center;
+
+    p {
+        color: var.$white;
+        margin: 25px 0 10px;
+        // padding: 45px 20px 10px;
+    }
+}
