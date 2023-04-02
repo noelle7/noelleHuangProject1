@@ -1,0 +1,80 @@
+@use "./variables" as var;
+
+// PLACEMENT
+
+.form-row {
+    margin: 10% 0;
+    display: flex;
+    justify-content: space-between;
+
+
+    .form-column {
+        flex: 1 1 50%;
+        margin: 20px 2%;
+    } 
+}
+
+// FORM INFO 
+
+.form-info {
+    margin: 30px 30px;
+    padding: 15px 20px 15px 55px;
+    border-left: 7px solid var.$green;
+    box-shadow: 7px 10px 10px 1px rgba(0,0,0,0.1);
+
+    h3 {
+        font-family: var.$FontStack;
+    }
+}
+
+// FORM 
+
+.form-column form {
+    margin: 10px;
+    padding: 15px 2px;
+    box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.1);
+
+    fieldset {
+        border: none;
+
+        input.name,
+        input[type="email"],
+        input[type="tel"],
+        input[type="url"] {
+            margin: 10px;
+            padding: 20px 10px;
+            height: 48px;
+            width: 45%;
+        }
+
+        input.subject {
+            margin: 10px;
+            padding: 20px 10px;
+            height: 48px;
+            width: 95%;
+        }
+
+        textarea {
+            margin: 10px;
+            color: gray;
+            padding: 20px;
+            padding-left: 10px;
+        }
+    }
+}
+
+// FORM BUTTON
+
+form button {
+    display: flex;
+    background: var.$green;
+    border: none;
+    // border-radius: 20cm;
+    // padding: 13px 5px;
+    padding: 10px 20px;
+    border-radius: 500px;
+    // margin: 10px 0;
+    margin: 10px auto;
+    color: var.$white;
+    font-weight: 500;
+}

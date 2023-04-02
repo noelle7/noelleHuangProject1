@@ -693,6 +693,77 @@ img {
   text-transform: capitalize;
 }
 
+.form-row {
+  margin: 10% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.form-row .form-column {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  margin: 20px 2%;
+}
+
+.form-info {
+  margin: 30px 30px;
+  padding: 15px 20px 15px 55px;
+  border-left: 7px solid #207200;
+  -webkit-box-shadow: 7px 10px 10px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 7px 10px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.form-info h3 {
+  font-family: "Lora", Arial, serif;
+}
+
+.form-column form {
+  margin: 10px;
+  padding: 15px 2px;
+  -webkit-box-shadow: 0px 0px 15px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 15px 6px rgba(0, 0, 0, 0.1);
+}
+.form-column form fieldset {
+  border: none;
+}
+.form-column form fieldset input.name,
+.form-column form fieldset input[type=email],
+.form-column form fieldset input[type=tel],
+.form-column form fieldset input[type=url] {
+  margin: 10px;
+  padding: 20px 10px;
+  height: 48px;
+  width: 45%;
+}
+.form-column form fieldset input.subject {
+  margin: 10px;
+  padding: 20px 10px;
+  height: 48px;
+  width: 95%;
+}
+.form-column form fieldset textarea {
+  margin: 10px;
+  color: gray;
+  padding: 20px;
+  padding-left: 10px;
+}
+
+form button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #207200;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 500px;
+  margin: 10px auto;
+  color: #fff;
+  font-weight: 500;
+}
+
 .footer .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;

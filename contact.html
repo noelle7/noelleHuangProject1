@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/60d37f1f0e.js" crossorigin="anonymous"></script>
-    <title>Contact</title>
+    <title>Home - Contact | OREG</title>
 </head>
 <body>
     <!-- HEADER section -->
@@ -52,44 +52,45 @@
             <div class="wrapper">
                 <div class="form-row">
                     <div class="form-column">
-                        <div class="info">
+                        <div class="form-info">
                             <h3>Office Address</h3>
                             <p>3812 Lena Lane City Jacson Mississippi</p>
                         </div>
-                        <div class="info">
+                        <div class="form-info">
                             <h3>Phone Number</h3>
                             <p>601-594-3504</p>
                         </div>
-                        <div class="info">
+                        <div class="form-info">
                             <h3>Email</h3>
                             <p>no-email@oreg.com</p>
                         </div>
                     </div>
+
                     <div class="form-column">
                         <form action="">
                             <fieldset >
+
                                 <label for="name" class="sr-only">Full name</label>
-                                <input type="text" placeholder="Your Full Name*" id="name" required>
-                        
+                                <input type="text" class="name" placeholder="Your Full Name*" id="name" required>
+
                                 <label for="Email" class="sr-only">Email</label>
                                 <input type="email" placeholder="Your Email Address*" id="Email" required>
-                        
+                                
                                 <label for="phone" class="sr-only">Phone number</label>
-                                <input type="number" placeholder="Phone Number" name="phone" id="phone">
-                        
+                                <input type="tel" placeholder="Phone Number" name="phone" id="phone">
+
                                 <label for="website" class="sr-only">Website link</label>
-                                <input type="text" name="website" id="website" placeholder="Your Website Link">
+                                <input type="url" name="website" id="website" placeholder="Your Website Link">
 
                                 <label for="subject" class="sr-only">Subject</label>
-                                <input type="text" placeholder="Subject..." id="subject">
+                                <input type="text" placeholder="Subject..." id="subject" class="subject">
 
                                 <label for="message" class="sr-only">Message</label>
                                 <!-- <input type="text" placeholder="Your Message..." id="message"> -->
-                                <textarea name="user-message" id="message" cols="35" rows="10" minlength="5" maxlength="200">
-                                    Your Message...
-                                </textarea>
-                              </fieldset>
-                              <button type="submit" >Send Message</button>
+                                <textarea name="user-message" id="message" cols="52" rows="7" minlength="2" maxlength="200" >Your Message...</textarea>
+                            </fieldset>
+                        
+                              <button type="submit">Send Message</button>
                         </form>
                     </div>
                 </div>
