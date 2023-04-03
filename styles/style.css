@@ -250,6 +250,33 @@ img {
   height: auto;
 }
 
+.button:focus,
+.button:hover {
+  background-color: #fff;
+  border: 1px solid #207200;
+}
+.button:focus a,
+.button:hover a {
+  color: #207200;
+}
+
+form .button:focus,
+form .button:hover {
+  background-color: #5fb35f;
+  border: none;
+}
+
+.social-media .fa:hover,
+.social-media .fa:focus {
+  background: #fff;
+  color: #207200;
+}
+
+.header-nav li a:hover {
+  color: #207200;
+  font-weight: 600;
+}
+
 .header-top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -461,14 +488,14 @@ img {
   margin: 10px 0;
 }
 
-.uppercase-button {
+button {
   background: #207200;
   margin: 15px 0;
   border: none;
   border-radius: 20cm;
   padding: 5px 0;
 }
-.uppercase-button a {
+button a {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;

@@ -31,3 +31,32 @@ img {
     display: block;
     height: auto;
 }
+
+// HOVER 
+
+.button:focus,
+.button:hover {
+    background-color: var.$white;
+    border: 1px solid var.$green;
+
+    a {
+        color: var.$green;
+    }
+}
+
+form .button:focus,
+form .button:hover {
+    background-color: var.$lightgreen;
+    border: none;
+}
+
+.social-media .fa:hover,
+.social-media .fa:focus {
+    background: var.$white;
+    color: var.$green;
+}
+
+.header-nav li a:hover {
+    color: var.$green;
+    font-weight: 600;
+}
