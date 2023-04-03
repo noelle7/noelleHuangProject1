@@ -32,8 +32,13 @@
         font-family: var.$FontStack;
     }
 
+    h3 {
+        font-size: 1rem;
+    }
+
     h1 {
         margin: 2px 0;
+        font-size: 1.5rem;
     }
 
     p {
@@ -83,3 +88,50 @@
     }
 }
 
+// RESPONSIVE DESIGN
+
+@media (max-width: 768px) {
+    
+    .about .wrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 20px 0;
+
+        .about-text-container {
+            width: 70vw;
+            text-align: center;
+            align-items: center;
+            padding-right: 0;
+
+            .about-button {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+        }
+
+
+
+        .about-motto-container {
+            width: 70vw;
+            margin-bottom: 5%;
+            
+            .shape {
+                border-radius: 10px;
+                padding: 2%;
+                height: 100%;
+                width: 100%;
+
+                p {
+                    padding: 0;
+                    margin: 5%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    
+}

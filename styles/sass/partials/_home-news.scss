@@ -32,7 +32,7 @@
 
     .blog {
         background-color: var.$white;
-        padding: 15px;
+        padding: 2%;
         margin: 0 10px;
         border-radius: .1cm;
     }
@@ -68,5 +68,21 @@
         font-weight: 600;
         text-transform: capitalize;
     }
+}
+
+// RESPONSIVE DESIGN
+
+@media (max-width: 768px) {
+
+    .news-container {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .blog {
+            margin: 5% 15%;
+            min-width: 70vw;
+        }
+    }
+    
 }
 

@@ -9,8 +9,8 @@
 
 
     .form-column {
-        flex: 1 1 50%;
-        margin: 20px 2%;
+        flex: 1 1 40%;
+        // margin: 20px 2%;
     } 
 }
 
@@ -21,6 +21,7 @@
     padding: 15px 20px 15px 55px;
     border-left: 7px solid var.$green;
     box-shadow: 7px 10px 10px 1px rgba(0,0,0,0.1);
+    min-width: 20vw;
 
     h3 {
         font-family: var.$FontStack;
@@ -77,4 +78,35 @@ form button {
     margin: 10px auto;
     color: var.$white;
     font-weight: 500;
+}
+
+// RESPONSIVE DESIGN
+
+@media (max-width: 940px) {
+
+    .form-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-row .form-column {
+        margin: 5% 6%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .form-column form {
+        min-width: 470px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+
+    .form-column form {
+        min-width: 470px;
+    }
+    
 }

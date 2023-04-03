@@ -108,5 +108,29 @@
 }
 
 
+// RESPONSIVE DESIGN
+
+@media (max-width: 768px) {
+    
+    .section-head-container {
+        padding: 0;
+
+    }
+
+    .product-list .wrapper .product-card {
+        min-width: 200px;
+        margin: 2%;
+        flex-basis: 40%;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .section-head-container p {
+        padding: 0;
+    }
+    
+}
 
 

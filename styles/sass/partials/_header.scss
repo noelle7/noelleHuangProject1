@@ -132,3 +132,45 @@
         text-align: center;
     }
 }
+
+
+// RESPONSIVE DESIGN
+
+@media (max-width: 768px) {
+    
+    .header-main {
+        height: 80vh;
+
+        .wrapper {
+            height: 70vh;
+            
+            .header-text-container, 
+            .header-image-container {
+                padding: 0;
+                margin-top: 0;
+            }
+        }
+    }
+        
+    .header-text-container h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    
+    .header-image-container {
+        display: none;
+    }
+
+    .header-main .wrapper .header-text-container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .header-nav li a {
+        padding: 0 7px;
+    }
+}
